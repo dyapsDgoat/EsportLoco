@@ -2,6 +2,11 @@
 
 Welcome to EsportLoco, an e-commerce platform dedicated to gaming enthusiasts! This platform is built using React.js for the frontend, Node.js for the backend, Express.js for the server, and MySQL for the database. It provides various endpoints to manage products, user information, shopping carts, and shipping details.
 
+![image](https://github.com/dyapsDgoat/EsportLoco/assets/95419316/9be29e82-d105-4deb-bb8c-6a742291e72e)
+![image](https://github.com/dyapsDgoat/EsportLoco/assets/95419316/97d4b0ca-f5f2-403f-8f3d-32b2b4bc32a9)
+
+
+
 ## Getting Started
 
 To get started with EsportLoco, follow these steps:
