@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-dashboard-container {
+  display: flex;
+  background-color: #dfe9f5;
+}
+.ad-nav {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.ad-nav a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+  text-decoration: none; /* Remove the default underline */
+}
+.ad-nav .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.ad-nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+.ad-nav a:hover {
+  background: #eee;
+}
+.ad-logout {
+  position: relative; /* Change to relative to position it within the flex container */
+  margin-top: auto; /* Use auto margin-top to push it to the bottom */
+}
+
+/* Main Section */
+.ad-main {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+
+.ad-product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ad-product-table th,
+.ad-product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ad-product-table th {
+  background-color: #333;
+  color: white;
+}
+
+.ad-product-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-dashboard-container button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.admin-dashboard-container button:hover {
+  background-color: #45a049;
+}
+
+.ad-second-course {
+  margin-top: 10px;
+  background-color: #333;
+  padding: 20px;
+}
+
+.ad-form {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ad-form label {
+  width: 15%;
+  color: white;
+}
